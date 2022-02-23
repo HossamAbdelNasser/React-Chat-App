@@ -37,19 +37,18 @@ const MessageForm = (props) => {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
-      <label htmlFor="upload-button">
+      <label htmlFor="upload-button" title='Upload'>
         <span className="image-button">
-          <PictureOutlined className="picture-icon" />
+          <PictureOutlined className="picture-icon"/>
         </span>
       </label>
       <input
         type="file"
         multiple={false}
         id="upload-button"
-        style={{ display: 'none' }}
         onChange={handleUpload.bind(this)}
       />
-      <button type="submit" className="send-button">
+      <button type="submit" className="send-button" title='Send'>
         <SendOutlined className="send-icon" />
       </button>
     </form>

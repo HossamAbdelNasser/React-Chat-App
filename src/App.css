@@ -147,7 +147,7 @@
   width: 13px;
   height: 13px;
   border-radius: 13px;
-  margin: 1.5px;
+  margin: 3px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 14px;
@@ -196,12 +196,14 @@
   top: 1px;
   position: relative;
   transform: rotate(-90deg);
+  margin-left: 30px;
 }
 
 .picture-icon {
   top: 1px;
   position: relative;
   font-size: 14px;
+  margin-left: 10px;
 }
 
 /* FORM STYLES */
@@ -287,6 +289,12 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+#upload-button {
+  display: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .error {
