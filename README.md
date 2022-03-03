@@ -1,3 +1,3 @@
 ## React Chat App
-Made with React and React-Chat-Engine <br/>
+Made with React and Chat Engine <br/>
 https://react-chat-hossam.netlify.app/
